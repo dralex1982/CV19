@@ -4,6 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:fa="http://schemas.fontawesome.com/icons/"
+        xmlns:oxy="http://oxyplot.org/wpf"
         xmlns:cmd="clr-namespace:CV19.Infrastructure.Commands"
         xmlns:vm="clr-namespace:CV19.ViewModels"
         xmlns:local="clr-namespace:CV19"
@@ -50,9 +51,22 @@
             </StatusBarItem>
         </StatusBar>
         <!-- TabControl -->
-        <TabControl>
+        <TabControl Se>
+            <!-- Header2-->
+            <TabItem Header="График">
+                <oxy:Plot>
+                    <oxy:Plot.Axes>
+                        <oxy:LinearAxis Position="Left"/>
+                        <oxy:LinearAxis Position="Bottom"/>
+                    </oxy:Plot.Axes>
+                    <oxy:LineSeries Color="Red"
+                                    ItemsSource="{Binding TestDataPoint}"
+                                    DataFieldX="XValue"
+                                    DataFieldY="YValue"/>
+                </oxy:Plot>
+            </TabItem>
             <!-- Header1-->
-            <TabItem>
+            <TabItem Visibility="Collapsed">
                 <TabItem.Header>
                     <StackPanel Orientation="Horizontal">
                         <!-- Icon -->
@@ -92,8 +106,7 @@
                                   Width="4"/>
                 </Grid>
             </TabItem>
-            <!-- Header2-->
-            <TabItem Header="Вкладка2"></TabItem>
+
         </TabControl>
 
     </DockPanel>

@@ -18,6 +18,7 @@ C:\YandexDisk\03_Документы\C#\CV19\obj\Debug\netcoreapp3.1\Views\Window
 C:\YandexDisk\03_Документы\C#\CV19\obj\Debug\netcoreapp3.1\Views\Windows\MainWindow.baml
 C:\YandexDisk\03_Документы\C#\CV19\obj\Debug\netcoreapp3.1\CV19.csproj.CopyComplete
 C:\YandexDisk\03_Документы\C#\CV19\obj\Debug\netcoreapp3.1\GeneratedInternalTypeHelper.g.cs
-C:\YandexDisk\03_Документы\C#\CV19\obj\Debug\netcoreapp3.1\CV19.csprojAssemblyReference.cache
 C:\YandexDisk\03_Документы\C#\CV19\bin\Debug\netcoreapp3.1\FontAwesome5.Net.dll
 C:\YandexDisk\03_Документы\C#\CV19\bin\Debug\netcoreapp3.1\FontAwesome5.dll
+C:\YandexDisk\03_Документы\C#\CV19\bin\Debug\netcoreapp3.1\OxyPlot.dll
+C:\YandexDisk\03_Документы\C#\CV19\bin\Debug\netcoreapp3.1\OxyPlot.Wpf.dll
