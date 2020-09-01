@@ -1,8 +1,22 @@
 {
   "version": 2,
-  "dgSpecHash": "hvqYQNBe5A84VhO8E2mU4sdAxhOxlI8ln8DLz5GczPHydoU7gdttztm/Ub+Saz8Tre7MGKz0GThejGeUXSeGow==",
+  "dgSpecHash": "yAnwWccpZoSYIgdHoUrBO/wcZ2q5CZWJLcVNEbGCbyyeIuWljgwIQ37N4PXvj89a3rjH4SXx/F3e7jMkYKPeKA==",
   "success": true,
   "projectFilePath": "C:\\YandexDisk\\03_Документы\\C#\\CV19\\CV19.csproj",
-  "expectedPackageFiles": [],
-  "logs": []
+  "expectedPackageFiles": [
+    "C:\\Users\\drale\\.nuget\\packages\\mvvmlight\\5.4.1.1\\mvvmlight.5.4.1.1.nupkg.sha512",
+    "C:\\Users\\drale\\.nuget\\packages\\mvvmlightlibs\\5.4.1.1\\mvvmlightlibs.5.4.1.1.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"MvvmLightLibs 5.4.1.1\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \".NETCoreApp,Version=v3.1\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "MvvmLightLibs",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
 }
