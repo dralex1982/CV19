@@ -12,7 +12,21 @@ namespace CV19.ViewModels
 {
     internal class MainWindowViewModel : ViewModel
     {
+        /// <summary>
+        /// Номер выбранной вкладки
+        /// </summary>
+        private int _SelectedPageIndex;
 
+        /// <summary>
+        /// Номер выбранной вкладки
+        /// </summary
+        public int SelectedPageIndex
+        {
+            get => _SelectedPageIndex;
+            set => Set(ref _SelectedPageIndex, value);
+        }
+
+        #region Тестовый набор графиков для визуализации графиков
         /// <summary>
         /// Тестовый набор графиков для визуализации графиков
         /// </summary>
@@ -26,6 +40,7 @@ namespace CV19.ViewModels
             get => _TestDataPoints;
             set => Set(ref _TestDataPoints, value);
         }
+        #endregion
 
         #region Заголовок окна
         private string _Title = "Анализ статистики CV19";
@@ -72,7 +87,7 @@ namespace CV19.ViewModels
         #region CloseApplicationCommand
         public ICommand CloseApplicationCommand { get; }
 
-        private bool CanCloseApplicationCommandExecuted(object p) => true;
+        private bool CanCloseApplicationCommandExecute(object p) => true;
 
         private void OnCloseApplicationCommandExecuted(object p)
         {
@@ -81,12 +96,27 @@ namespace CV19.ViewModels
         #endregion
 
 
+        #region ChangeTabIndexCommand
+        public ICommand ChangeTabIndexCommand { get; }
+
+        private bool CanChangeTabIndexCommandExecute(object p) => _SelectedPageIndex >= 0;
+
+        private void OnChangeTabIndexCommandExecuted(object p)
+        {
+            if (p is null) return;
+            SelectedPageIndex += Convert.ToInt32(p);
+        }
+
+        #endregion
+
         #endregion
         public MainWindowViewModel()
         {
             #region Команды
 
-            CloseApplicationCommand = new LambdaCommand(OnCloseApplicationCommandExecuted, CanCloseApplicationCommandExecuted);
+            CloseApplicationCommand = new LambdaCommand(OnCloseApplicationCommandExecuted, CanCloseApplicationCommandExecute);
+            ChangeTabIndexCommand = new LambdaCommand(OnChangeTabIndexCommandExecuted, CanChangeTabIndexCommandExecute);
+            
             #endregion
 
             var data_points = new List<DataPoint>((int)(360 / 0.1));
