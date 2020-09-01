@@ -4,12 +4,9 @@ C:\YandexDisk\03_Документы\C#\CV19\bin\Debug\netcoreapp3.1\CV19.runtime
 C:\YandexDisk\03_Документы\C#\CV19\bin\Debug\netcoreapp3.1\CV19.runtimeconfig.dev.json
 C:\YandexDisk\03_Документы\C#\CV19\bin\Debug\netcoreapp3.1\CV19.dll
 C:\YandexDisk\03_Документы\C#\CV19\bin\Debug\netcoreapp3.1\CV19.pdb
-C:\YandexDisk\03_Документы\C#\CV19\obj\Debug\netcoreapp3.1\CV19.csprojAssemblyReference.cache
-C:\YandexDisk\03_Документы\C#\CV19\obj\Debug\netcoreapp3.1\MainWindow.g.cs
 C:\YandexDisk\03_Документы\C#\CV19\obj\Debug\netcoreapp3.1\App.g.cs
 C:\YandexDisk\03_Документы\C#\CV19\obj\Debug\netcoreapp3.1\CV19_MarkupCompile.cache
 C:\YandexDisk\03_Документы\C#\CV19\obj\Debug\netcoreapp3.1\CV19_MarkupCompile.lref
-C:\YandexDisk\03_Документы\C#\CV19\obj\Debug\netcoreapp3.1\MainWindow.baml
 C:\YandexDisk\03_Документы\C#\CV19\obj\Debug\netcoreapp3.1\CV19.g.resources
 C:\YandexDisk\03_Документы\C#\CV19\obj\Debug\netcoreapp3.1\CV19.AssemblyInfoInputs.cache
 C:\YandexDisk\03_Документы\C#\CV19\obj\Debug\netcoreapp3.1\CV19.AssemblyInfo.cs
@@ -18,3 +15,10 @@ C:\YandexDisk\03_Документы\C#\CV19\obj\Debug\netcoreapp3.1\CV19.dll
 C:\YandexDisk\03_Документы\C#\CV19\obj\Debug\netcoreapp3.1\CV19.pdb
 C:\YandexDisk\03_Документы\C#\CV19\obj\Debug\netcoreapp3.1\CV19.genruntimeconfig.cache
 C:\YandexDisk\03_Документы\C#\CV19\obj\Debug\netcoreapp3.1\Views\Windows\MainWindow.g.cs
+C:\YandexDisk\03_Документы\C#\CV19\bin\Debug\netcoreapp3.1\GalaSoft.MvvmLight.Extras.dll
+C:\YandexDisk\03_Документы\C#\CV19\bin\Debug\netcoreapp3.1\GalaSoft.MvvmLight.Platform.dll
+C:\YandexDisk\03_Документы\C#\CV19\bin\Debug\netcoreapp3.1\GalaSoft.MvvmLight.dll
+C:\YandexDisk\03_Документы\C#\CV19\bin\Debug\netcoreapp3.1\System.Windows.Interactivity.dll
+C:\YandexDisk\03_Документы\C#\CV19\obj\Debug\netcoreapp3.1\Views\Windows\MainWindow.baml
+C:\YandexDisk\03_Документы\C#\CV19\obj\Debug\netcoreapp3.1\CV19.csproj.CopyComplete
+C:\YandexDisk\03_Документы\C#\CV19\obj\Debug\netcoreapp3.1\GeneratedInternalTypeHelper.g.cs
