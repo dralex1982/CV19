@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\YandexDisk\\03_Документы\\C#\\CV19\\CV19.csproj": {}
+    "C:\\YandexDisk\\03_Документы\\C#\\Учеба\\CV19\\CV19.csproj": {}
   },
   "projects": {
-    "C:\\YandexDisk\\03_Документы\\C#\\CV19\\CV19.csproj": {
+    "C:\\YandexDisk\\03_Документы\\C#\\Учеба\\CV19\\CV19.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\YandexDisk\\03_Документы\\C#\\CV19\\CV19.csproj",
+        "projectUniqueName": "C:\\YandexDisk\\03_Документы\\C#\\Учеба\\CV19\\CV19.csproj",
         "projectName": "CV19",
-        "projectPath": "C:\\YandexDisk\\03_Документы\\C#\\CV19\\CV19.csproj",
+        "projectPath": "C:\\YandexDisk\\03_Документы\\C#\\Учеба\\CV19\\CV19.csproj",
         "packagesPath": "C:\\Users\\drale\\.nuget\\packages\\",
-        "outputPath": "C:\\YandexDisk\\03_Документы\\C#\\CV19\\obj\\",
+        "outputPath": "C:\\YandexDisk\\03_Документы\\C#\\Учеба\\CV19\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

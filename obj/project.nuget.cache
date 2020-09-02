@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LVvbZ+uhawcbG+A7Nuh0l3OuK+RMbBhqfS4I1wpgLaODWHoy4u5u8og9IbwwW3p8+QcwqwwIsG79X2I4KFjJMg==",
+  "dgSpecHash": "O2XYDGOXNNK7Z1HwLI7aGitJO69/RWnDb4tiMvf7AZLsEQ8T0yr8jf8DONNrbh0kleel4Ez1YXhcIpLxuCNf2g==",
   "success": true,
-  "projectFilePath": "C:\\YandexDisk\\03_Документы\\C#\\CV19\\CV19.csproj",
+  "projectFilePath": "C:\\YandexDisk\\03_Документы\\C#\\Учеба\\CV19\\CV19.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\drale\\.nuget\\packages\\fontawesome5\\2.0.8\\fontawesome5.2.0.8.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
