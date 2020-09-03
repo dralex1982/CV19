@@ -46,3 +46,4 @@ C:\YandexDisk\03_Документы\C#\Учеба\CV19\obj\Debug\netcoreapp3.1\C
 C:\YandexDisk\03_Документы\C#\Учеба\CV19\obj\Debug\netcoreapp3.1\CV19.dll
 C:\YandexDisk\03_Документы\C#\Учеба\CV19\obj\Debug\netcoreapp3.1\CV19.pdb
 C:\YandexDisk\03_Документы\C#\Учеба\CV19\obj\Debug\netcoreapp3.1\CV19.genruntimeconfig.cache
+c:\YandexDisk\03_Документы\C#\Учеба\CV19\obj\Debug\netcoreapp3.1\CV19.csprojAssemblyReference.cache
