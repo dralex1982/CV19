@@ -23,6 +23,8 @@
     <!-- Window.Resoursec -->
     <Window.Resources>
         <cmd:CloseApplicationCommand x:Key="CloseApplicationCommand"/>
+
+        
     </Window.Resources>
     <DockPanel>
         <!-- Menu -->
@@ -166,18 +168,17 @@
                                          Rows="1"
                                          Margin="0,3">
                                 <UniformGrid.Resources>
-                                    <Style x:Key="ButtonStyle"
-                                           TargetType="Button">
+                                    <Style TargetType="Button">
                                         <Setter Property="Margin" Value="3,0"/>
                                         <Setter Property="Padding" Value="3,5"/>
                                         <Setter Property="Background" Value="White"/>
-                                    </Style> 
+                                    </Style>
                                 </UniformGrid.Resources>
                                 <Button Content="Добавить"
-                                        Style="{StaticResource ButtonStyle}"
+                                        Style="{StaticResource PrimaryBtn}"
                                         Command="{Binding CreateNewGroupCommand}"/>
                                 <Button Content="Удалить"
-                                        Style="{StaticResource ButtonStyle}"
+                                        Style="{StaticResource DangerBtn}"
                                         Command="{Binding DeleteGroupCommand}"
                                         CommandParameter="{Binding SelectedGroup}"/>
                             </UniformGrid>
@@ -244,7 +245,14 @@
                     </GroupBox>
                 </Grid>
             </TabItem>
-            <TabItem Header="Вкладка2"/>
+            <TabItem Header="Вкладка2">
+                <Button VerticalAlignment="Top"
+                        HorizontalAlignment="Left"
+                        Content="123" Margin="15,5"
+                        Padding="14,5"
+                        Style="{StaticResource DangerBtn}"/>
+
+            </TabItem>
             <TabItem Header="Вкладка3"/>
             <TabItem Header="Вкладка4"/>
         </TabControl>
