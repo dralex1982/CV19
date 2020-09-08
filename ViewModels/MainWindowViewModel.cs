@@ -203,6 +203,7 @@ namespace CV19.ViewModels
             DeleteGroupCommand = new LambdaCommand(OnDeleteGroupCommandExecuted, CanDeleteGroupCommandExecute);
             #endregion
 
+            #region TestDataPoint
             var data_points = new List<DataPoint>((int)(360 / 0.1));
             for (var x = 0d; x <= 360; x += 0.1)
             {
@@ -212,7 +213,8 @@ namespace CV19.ViewModels
                 data_points.Add(new DataPoint { XValue = x, YValue = y });
             }
 
-            TestDataPoint = data_points;
+            TestDataPoint = data_points; 
+            #endregion
 
 
             var student_index = 1;
@@ -233,6 +235,8 @@ namespace CV19.ViewModels
 
             Groups = new ObservableCollection<Group>(groups);
 
+            #region CompositeCollection
+
             var data_list = new List<object>();
 
             data_list.Add("Hello World!");
@@ -241,7 +245,8 @@ namespace CV19.ViewModels
             data_list.Add(group);
             data_list.Add(group.Students[0]);
 
-            CompositeCollection = data_list.ToArray();
+            CompositeCollection = data_list.ToArray(); 
+            #endregion
 
         }
 
