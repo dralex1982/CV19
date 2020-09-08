@@ -7,6 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Resources\Styles\DataTemplates\**" />
+    <EmbeddedResource Remove="Resources\Styles\DataTemplates\**" />
+    <None Remove="Resources\Styles\DataTemplates\**" />
+    <Page Remove="Resources\Styles\DataTemplates\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Data\" />
     <Folder Include="Services\" />
   </ItemGroup>

@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1
 C:\YandexDisk\03_Документы\C#\Учеба\CV19\App.xaml
-2-1222450413
+41723139645
 
 13-1802212655
 1961369527908
-Resources\Styles\Buttons.xaml;Views\Windows\MainWindow.xaml;
+Resources\DataTemplates\CompositedItemsControlDataTemplates.xaml;Resources\DataTemplates\CompositeListItemsDataTemplates.xaml;Resources\Styles\Buttons.xaml;Views\Windows\MainWindow.xaml;
 
 False
 
