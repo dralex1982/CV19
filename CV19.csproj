@@ -7,12 +7,20 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Resources\Styles\DataTemplates\**" />
+    <EmbeddedResource Remove="Resources\Styles\DataTemplates\**" />
+    <None Remove="Resources\Styles\DataTemplates\**" />
+    <Page Remove="Resources\Styles\DataTemplates\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Data\" />
     <Folder Include="Services\" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="FontAwesome5" Version="2.0.8" />
+    <PackageReference Include="Microsoft.Xaml.Behaviors.Wpf" Version="1.1.19" />
     <PackageReference Include="OxyPlot.Wpf" Version="2.0.0" />
   </ItemGroup>
 

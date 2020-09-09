@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\YandexDisk\03_Документы\C#\CV19\obj\Debug\netcoreapp3.1\
+C:\YandexDisk\03_Документы\C#\Учеба\CV19\obj\Debug\netcoreapp3.1\
 CV19
 none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1
-C:\YandexDisk\03_Документы\C#\CV19\App.xaml
-11895717287
+C:\YandexDisk\03_Документы\C#\Учеба\CV19\App.xaml
+41723139645
 
-14-1169144517
-1961369527908
-Views\Windows\MainWindow.xaml;
+151603556172
+197-1247685535
+Resources\DataTemplates\CompositedItemsControlDataTemplates.xaml;Resources\DataTemplates\CompositeListItemsDataTemplates.xaml;Resources\Styles\Buttons.xaml;Views\Windows\MainWindow.xaml;
 
-False
+True
 
