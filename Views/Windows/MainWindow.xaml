@@ -131,18 +131,14 @@
                             <UniformGrid DockPanel.Dock="Bottom"
                                          Rows="1"
                                          Margin="0,3">
-                                <UniformGrid.Resources>
-                                    <Style TargetType="Button">
-                                        <Setter Property="Margin" Value="3,0"/>
-                                        <Setter Property="Padding" Value="3,5"/>
-                                        <Setter Property="Background" Value="White"/>
-                                    </Style>
-                                </UniformGrid.Resources>
                                 <Button Content="Добавить"
-                                        Style="{StaticResource PrimaryBtn}"
-                                        Command="{Binding CreateNewGroupCommand}"/>
+                                        Padding="0,7"
+                                        Style="{StaticResource CheckButtonStyle}"
+                                        Command="{Binding CreateNewGroupCommand}">
+                                </Button>
                                 <Button Content="Удалить"
-                                        Style="{StaticResource DangerBtn}"
+                                        Padding="0,7"
+                                        Style="{StaticResource RemoveButtonStyle}"
                                         Command="{Binding DeleteGroupCommand}"
                                         CommandParameter="{Binding SelectedGroup}"/>
                             </UniformGrid>
@@ -210,12 +206,55 @@
                 </Grid>
             </TabItem>
             <TabItem Header="Вкладка2">
-                <Button VerticalAlignment="Top"
+                <Button Margin="20,40"
+                        VerticalAlignment="Top"
                         HorizontalAlignment="Left"
-                        Content="123" Margin="15,5"
+                        Content="123"
                         Padding="14,5"
-                        Style="{StaticResource DangerBtn}"/>
-
+                        Opacity="1"
+                        Style="{StaticResource CustomButtonStyle}"
+                        Width="110"
+                        RenderTransformOrigin="0.5,0.5">
+                    <Button.Background>
+                        <SolidColorBrush Color="White" x:Name="ButtonBrush"></SolidColorBrush>
+                    </Button.Background>
+                <Button.RenderTransform>
+                    <RotateTransform Angle="0" x:Name="ButtonRotate"/>
+                </Button.RenderTransform>
+                    <Button.Triggers>
+                        <EventTrigger RoutedEvent="Button.Click">
+                            <BeginStoryboard>
+                                <Storyboard>
+                                    <DoubleAnimation Storyboard.TargetName="ButtonRotate"
+                                                     Storyboard.TargetProperty="Angle"
+                                                     From="0" To="360"
+                                                     Duration="0:0:0.5"
+                                                     AutoReverse="True"/>
+                                </Storyboard>
+                            </BeginStoryboard>
+                        </EventTrigger>
+                        <EventTrigger RoutedEvent="Button.MouseEnter">
+                            <BeginStoryboard>
+                                <Storyboard>
+                                    <ColorAnimation Storyboard.TargetName="ButtonBrush"
+                                                    Storyboard.TargetProperty="Color"
+                                                    Duration="0:0:0.1"
+                                                    To="Red"/>
+                                </Storyboard>
+                            </BeginStoryboard>
+                        </EventTrigger>
+                        <EventTrigger RoutedEvent="Button.MouseLeave">
+                            <BeginStoryboard>
+                                <Storyboard>
+                                    <ColorAnimation Storyboard.TargetName="ButtonBrush"
+                                                    Storyboard.TargetProperty="Color"
+                                                    Duration="0:0:3"
+                                                    To="White"/>
+                                </Storyboard>
+                            </BeginStoryboard>
+                        </EventTrigger>
+                    </Button.Triggers>
+                    </Button>
             </TabItem>
             <TabItem Header="Вкладка3"/>
             <TabItem Header="Вкладка4"/>
