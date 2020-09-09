@@ -41,7 +41,6 @@ C:\YandexDisk\03_Документы\C#\Учеба\CV19\obj\Debug\netcoreapp3.1\V
 C:\YandexDisk\03_Документы\C#\Учеба\CV19\obj\Debug\netcoreapp3.1\CV19.g.resources
 C:\YandexDisk\03_Документы\C#\Учеба\CV19\obj\Debug\netcoreapp3.1\CV19.AssemblyInfoInputs.cache
 C:\YandexDisk\03_Документы\C#\Учеба\CV19\obj\Debug\netcoreapp3.1\CV19.AssemblyInfo.cs
-C:\YandexDisk\03_Документы\C#\Учеба\CV19\obj\Debug\netcoreapp3.1\CV19.csproj.CoreCompileInputs.cache
 C:\YandexDisk\03_Документы\C#\Учеба\CV19\obj\Debug\netcoreapp3.1\CV19.csproj.CopyComplete
 C:\YandexDisk\03_Документы\C#\Учеба\CV19\obj\Debug\netcoreapp3.1\CV19.dll
 C:\YandexDisk\03_Документы\C#\Учеба\CV19\obj\Debug\netcoreapp3.1\CV19.pdb
